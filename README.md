@@ -1,12 +1,41 @@
 # Luminescent-Aurora
 ## Template
-1. math
-    数学公式
-    莫比乌斯反演
-    杜教筛
-    min25筛
-    BM
-    BSGS（ex）
-    Lucas（ex）
-    多项式全家桶
-    FWT
+1. 数学
+    - 数学公式
+    - 莫比乌斯反演
+    - 杜教筛
+    - min25筛
+    - BM
+    - BSGS（ex）
+    - Lucas（ex）
+    - 多项式全家桶
+    - FWT
+
+2. 数据结构
+    - pbds
+    - treap（非旋、可持久化）
+    - zkw线段树
+    - 主席树
+    - 可持久化并查集
+    - LCT
+    - KD-Tree
+
+3. 图论
+    - 树链剖分
+    - 二分图匹配
+    - KM
+    - 最大流
+    - 费用流（zkw费用流）
+    - 点双连通分量
+    - 边双连通分量
+    - 强连通分量（2-SAT）
+    - 最小树形图
+
+4. 字符串
+    - 最小表示法
+    - manacher
+    - KMP（ex)
+    - AC自动机
+    - SA
+    - SAM
+    - lyndon分解
