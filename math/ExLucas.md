@@ -1,4 +1,4 @@
-扩展Lucas定理用于求：$\binom n m \mod p$，其中$p$不一定为素数
+扩展Lucas定理用于求：\\(\binom n m \mod p\\)，其中\\(p\\)不一定为素数
 
 ---
 
@@ -125,4 +125,3 @@ int main() {
     return 0 ;
 }
 ~~~
-
