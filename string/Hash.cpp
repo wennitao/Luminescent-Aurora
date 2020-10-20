@@ -36,8 +36,10 @@ namespace Has {
                 ipw[id][i]=Mul(ipw[id][i+1],bas[id],mod[id]);
             for(int i=0;i<all;++i) {
                 le[i]=s[i].length();//,has[id][i]=new int[le[i]+1];
-                for(int j=le[i]-1;~j;--j)
-                    has[id][i][j]=Add(has[id][i][j+1],Mul(pw[id][le[i]-j+1],s[i][j]-'a'+1,mod[id]),mod[id]);
+                for(int j=le[i]-1;~j;--j) {
+                    has[id][i][j]=Add(has[id][i][j+1] ;
+                    Mul(pw[id][le[i]-j+1],s[i][j]-'a'+1,mod[id]),mod[id]);
+                }
             }
         }
     }
