@@ -41,7 +41,8 @@ namespace Solve {
         ll x,y;
         inline QuadraticField operator*(QuadraticField T) {
             QuadraticField ans;
-            ans.x=(this->x*T.x%mod+this->y*T.y%mod*w%mod)%mod,ans.y=(this->x*T.y%mod+this->y*T.x%mod)%mod;
+            ans.x=(this->x*T.x%mod+this->y*T.y%mod*w%mod)%mod;
+            ans.y=(this->x*T.y%mod+this->y*T.x%mod)%mod;
             return ans;
         }
         inline QuadraticField operator^(ll b) {

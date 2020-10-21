@@ -2,12 +2,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
-bool Finish_read;
-template<class T>inline void read(T &x){Finish_read=0;x=0;int f=1;char ch=getchar();while(!isdigit(ch)){if(ch=='-')f=-1;if(ch==EOF)return;ch=getchar();}while(isdigit(ch))x=x*10+ch-'0',ch=getchar();x*=f;Finish_read=1;}
-template<class T>inline void print(T x){if(x/10!=0)print(x/10);putchar(x%10+'0');}
-template<class T>inline void writeln(T x){if(x<0)putchar('-');x=abs(x);print(x);putchar('\n');}
-template<class T>inline void write(T x){if(x<0)putchar('-');x=abs(x);print(x);}
-/*================Header Template==============*/
 const int mod=998244353;
 namespace {
     inline int Add(const int &x,const int &y) {
@@ -90,6 +84,6 @@ vector<int>a,b,A,B,C;
 int main() {
     read(lim),lim=1<<lim,Read(a),Read(b),A=a,B=b;
     FMT(A),FMT(B),C=A*B,IFMT(C),Show(C),A=a,B=b;
-    FWTand(A),FWTand(B),C=A*B,IFWTand(C),Show(C),A=a,B=b; 
+    FWTand(A),FWTand(B),C=A*B,IFWTand(C),Show(C),A=a,B=b;
     FWTxor(A),FWTxor(B),C=A*B,IFWTxor(C),Show(C);
 }
